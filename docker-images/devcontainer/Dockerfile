@@ -37,6 +37,7 @@ RUN apt update; \
 	# add dev non-root user
 	useradd --shell /bin/bash --create-home devcontainer;
 
+EXPOSE 22
 USER devcontainer
 
 # Built with ❤ by [Pipeline Foundation](https://pipeline.foundation)
